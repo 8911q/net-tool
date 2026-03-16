@@ -29,7 +29,7 @@ export default {
       }
     } catch (e) {}
 
-    // 初始地理信息 (V49.0 风格预设)
+    // 初始地理信息 (V0.1 风格预设)
     const initialGeo = {
       isp: cf.asOrganization || "运营商加载中...",
       country: "中国", 
@@ -82,7 +82,7 @@ export default {
             <header class="mb-8 flex justify-between items-end border-b border-slate-800 pb-4">
                 <div>
                     <h1 class="text-2xl font-black italic tracking-tighter text-sky-400">网络<span class="text-white">诊断终端</span></h1>
-                    <p class="text-[10px] text-slate-500 font-bold tracking-[0.3em] uppercase">V49.3 系统架构</p>
+                    <p class="text-[10px] text-slate-500 font-bold tracking-[0.3em] uppercase">V0.1 系统架构</p>
                 </div>
                 <div class="text-right"><div class="text-[10px] text-emerald-500 font-bold mono uppercase">节点: ${cf.colo}</div></div>
             </header>
